@@ -272,10 +272,7 @@ div.gallery {
         float: none;
         width: 100%;
     }
-    
-    .row2 {
-        float: none;
-    }
+
 
     div.img {
         margin: 20px;
@@ -307,8 +304,15 @@ div.gallery {
         margin-left: 40px;
     }
 
+    input.inputs {
+        width: 80%;
+    }
+
 }
+
+
 @media only screen and (max-width: 768px) {
+
     div.portfolio {
         margin: 0;
         width: 50%;
@@ -337,14 +341,6 @@ div.gallery {
         margin-left: 5px;
     }
 
-    #form {
-        width: 50%;
-    }
-
-    input.inputs {
-        width: 50%;
-    }
-
 
 }
 @media only screen and (max-width: 980px) {
@@ -368,7 +364,6 @@ div.gallery {
 
     .row1 {
         margin-left: 20px;
-        display: flex;
         height: 100%;
     }
     .row2 {
@@ -386,7 +381,9 @@ div.gallery {
         margin-left: 5px;
     }
 
-    #form {
+    div#form {
+        margin-right: 20px;
+        margin-left: 20px;
         width: auto;
     }
     
@@ -397,17 +394,4 @@ div.gallery {
     textarea {
         width: 50%;
     }
-
-
-    
-
-
 }
-
-
-/*
-
-
-8. Be sure to include the `viewport` tag in all your HTML files, otherwise your media-queries won't function as expected on mobile devices. _(Hint: You won't need to use exact pixels for anything other than the container)_
-
-*/
