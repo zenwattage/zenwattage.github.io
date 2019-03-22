@@ -26,6 +26,53 @@ body,html {
     background-size: cover;
 }
 
+/* ---------- NAV BAR ------------------ */
+nav {
+  background-color: #ffffff;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-bottom: #dddddd  solid;
+}
+
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+li a {
+  display: block;
+  color: #777777 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+  
+}
+
+#home {
+  float: left;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  text-decoration: none;
+}
+
+/*--------------End Navbar ----------------*/
+
+
+
+
+
+
+
 /*centering main messages*/
 .welcome {
     display: flex;

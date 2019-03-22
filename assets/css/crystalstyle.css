@@ -83,4 +83,11 @@ li a {
     float: right;
     
 }
+
+#home {
+    float: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-decoration: none;
+}
 /*--------------End Navbar ----------------*/
