@@ -248,7 +248,7 @@ $(document).on('ready', function() {
 
     function putOnPage() {
 
-        document.getElementById("question").innerHTML = questions.map(getQuestion);
+        document.getElementById("question").innerHTML = questions.map(firstQuestion);
         document.getElementById("right").innerHTML = questions.map(getRight);
         document.getElementById("wrong").innerHTML = wrongAnswers.map(getWrong);
         
