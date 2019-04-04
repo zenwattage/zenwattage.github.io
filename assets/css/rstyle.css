@@ -164,9 +164,9 @@ p  {
 button {
     font-size: 100%;
     text-align: center;
-    /*width: 90px;*/
+    width: 90px;
     color: #ffffff;
-    /*padding: 10px;*/
+    padding: 10px;
     background-color: #4aaaa5;
 }
 
@@ -326,9 +326,8 @@ div.gallery {
     }
 
     .row2 {
-        display: flex;
         margin-left: 20px;
-        margin-bottom: 30px;        
+        
         background-color: blue;
     }
 
