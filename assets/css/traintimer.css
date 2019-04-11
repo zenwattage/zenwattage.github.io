@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+}
+
+
+body {
+    background-color: beige;
+}
+.jumbotron {
+    background-color: chocolate;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-size: 350%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-shadow: 2px 2px darkorange;
+
+}
+.row {
+    margin: auto;    
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 160px;
+}
+
+.container {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
