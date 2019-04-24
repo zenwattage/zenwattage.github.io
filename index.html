@@ -1,53 +1,117 @@
+<!-- All Code 100% by Scott Hansford-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Scott's (Responsive!) Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="assets/css/flipclock.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-    
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Scott Hansford Portfolio</title>
+
+  <!-- Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Playfair+Display|Ultra|PT+Mono|Staatliches|Teko"
+    rel="stylesheet">
+  <!-- My CSS-->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-
 <body>
-    <!-- nav bar -->
-    <nav>
-        <ul >
-            <li><a href="index.html" id="home">Scott Hansford</a></li>
-            <li class="navs"><a href="contact.html" id="contact">Contact</a></li>
-            <li class="navs"><a  href="portfolio.html" id="portfolio">Portfolio</a></li>
-            <li class="navs"><a href="index.html" id="about">About</a></li>
-        </ul>
-    </nav>
+
+  <!-- header image -->
+  <!-- <img src="assets/images/goats.jpg" class="img-fluid" alt="Responsive image"> -->
+
+  <!-- Nav Bar -->
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="pages/contact.html">Contact</a>
+    </li>
+  </ul> <!-- End Nav Bar -->
 
 
-    <main>
-        
-        <section class="main">
-            <heading>
-                <h1 id="aboutme">About Me</h1>
-                <hr>
-            </heading>
-            
-            <img id="myface" src="assets/images/myface.jpg">
-            
-            <p id="top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur a repudiandae et quis saepe ipsam inventore ad eum hic dolorum ratione pariatur dignissimos alias molestiae quaerat fugit, dolorem sapiente quas, doloribus est cupiditate at enim delectus? Voluptate vel exercitationem voluptas harum quidem minima. Aliquam magni dignissimos eum id necessitatibus assumenda, sapiente iure quaerat consequuntur minima reiciendis dicta alias ab dolor hic temporibus! Iure autem totam vel itaque modi consectetur earum, officiis alias hic cupiditate nihil rem nobis facere velit quis illo dolor a error animi inventore corporis rerum quibusdam!  </p>
-        </section>
-    </main>
+  <div class="container">
+    <h1><i class="fas fa-md fa-terminal"></i> My name is Scott Hansford</h1>
+
+    <h2>I am a full stack web development student at the University of Washington.</h2>
+
+    <!--     
+    <a href="#" class="badge badge-primary">Recent: </a>
+    <h2>Projects: </h2>
+ -->
+  </div>
 
 
-    <div class="footer">
-        <h3> ©Scott Hansford</h3>
+  <!-- THUMBNAIL ROWS-->
+  <div class="row">
+    <div class="col-sm-2">
+      <div class="card">
+        <div class="card-body">
+          <img src="assets/images/bruce.jpg" class="rounded img-thumbnail" alt="goats">
+          <h5 class="card-title"><i class="fa-lg fas fa-lightbulb"></i> Project 1 - IOT</h5>
+          <p class="card-text">We connected a LIFX smart bulb's API to a Weather API!</p>
+          <a href="pages/PROJ1index.html" class="btn btn-secondary orange-background">Check it out <i
+              class="fas fa-cloud-sun"></i>
+              <a href="https://www.github.com/zenwattage/project1" class="btn btn-secondary orange-background">Get the code <i class="fas fa-laptop-code"></i></a>
+          
+        </div>
+      </div>
     </div>
-    
-    <script src="assets/javascript/triviaapp.js"></script>
-    <script src="assets/javascript/giftastic.js"></script>
-    
-    <script src="assets/javascript/flipclock.min.js"></script>
+    <div class="col-sm-2">
+      <div class="card">
+        <div class="card-body">
+          <img src="assets/images/bruce.jpg" class="rounded img-thumbnail" alt="goats">
+          <h5 class="card-title">Project 2</h5>
+          <p class="card-text">Stay tuned and you'll see what this project becomes!</p>
+          <a href="#" class="btn btn-secondary orange-background">Go somewhere <i class="fas fa-globe-americas"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-2">
+      <div class="card">
+        <div class="card-body">
+          <img src="assets/images/bruce.jpg" class="rounded img-thumbnail" alt="goats">
+          <h5 class="card-title">Project 3</h5>
+          <p class="card-text">Stay tuned and you'll see what this project becomes!</p>
+          <a href="#" class="btn btn-secondary orange-background">Go somewhere <i class="fas fa-globe-americas"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- END THUMBNAIL ROWS-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- SCRIPT LINKS -->
+  <!-- Boostrap Jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <!-- js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

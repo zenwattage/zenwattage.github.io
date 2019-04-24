@@ -1,0 +1,103 @@
+/* #body {
+    background: linear-gradient(239deg, #00ffdf, #f200ff);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    -o-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+
+.window {
+ border-radius: 10px;
+ align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#input {
+    border-radius: 10px; 
+    border: 0px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+/* class to select button in default state */
+/* #submit {
+background-color: white;    
+opacity: 0.5;
+width: 46px;
+border-radius: 100%;
+margin: 50px;  
+}
+
+#submit:hover {
+    opacity: 1;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 75%}
+    50%{background-position:100% 26%}
+    100%{background-position:0% 75%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 75%}
+    50%{background-position:100% 26%}
+    100%{background-position:0% 75%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 75%}
+    50%{background-position:100% 26%}
+    100%{background-position:0% 75%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 75%}
+    50%{background-position:100% 26%}
+    100%{background-position:0% 75%}
+} */ 
+
+
+#map {
+        height: 100%;
+        width: 80%;
+        margin: auto;
+}
+
+    /* Optional: Makes the sample page fill the window. */
+ html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+}
+.controls {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    height: 29px;
+    margin-left: 17px;
+    margin-top: 10px;
+    outline: none;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+.controls:focus {
+    border-color: #4d90fe;
+}
+.title {
+    font-weight: bold;
+}
+#infowindow-content {
+    display: none;
+}
+#map #infowindow-content {
+    display: inline;
+}
