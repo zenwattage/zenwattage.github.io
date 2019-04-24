@@ -129,3 +129,44 @@ h3 {
 .builtWith {
     margin-top: 5px;
 }
+
+
+/*  ---- CONTACT SECTION ---- */
+
+.modal-title {
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 150%;
+}
+
+.modal-content {
+    font-family: 'Staatliches', cursive;
+    background-color: #EEBB4E;
+}
+
+.modal-body {
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 150%;
+}
+
+#dropLine {
+    font-size: 350%;
+    text-shadow: 1px 1px 1px #EEBB4E;
+}
+
+.contactBox {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    /* move to center */
+    transform: translate(-50%, -50%);
+}
+
+.fa-linkedin, .fa-github-square, .fa-envelope-square, .fa-phone-square {
+    color: #EEBB4E;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10px;
+}
