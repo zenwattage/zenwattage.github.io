@@ -112,3 +112,20 @@ h3 {
 .fa-terminal {
     color: #EEBB4E;
 }
+
+.fa-google, .fa-map-marked, .fa-bootstrap {
+    color: #EEBB4E;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10px;
+}
+
+#firebaseIcon {
+    width: 50px;
+    height: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.builtWith {
+    margin-top: 5px;
+}
