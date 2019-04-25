@@ -306,7 +306,7 @@ function initAutocomplete() {
 
     console.log(searchBox);
 
-    clickInput = searchBox.gm_accessors_.places.Wc.formattedPrediction;
+    clickInput = searchBox.gm_accessors_.places.Xc.formattedPrediction;
 
     var clickedInput = stringFormat(clickInput);
 
