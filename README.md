@@ -22,7 +22,7 @@ To utilize the LIFX weather project you will need a LIFX ```client_id``` token a
 ## Support
 
 Please [open an 
-issue](https://github.com/zenwattage/zenwattage.github.io/README.md) for 
+issue](https://github.com/zenwattage/zenwattage.github.io/issues/new) for 
 support.
 
 ## Contributing
