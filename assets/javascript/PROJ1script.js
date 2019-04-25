@@ -68,7 +68,7 @@ function SetBulb(newBulb) {
 
 
 
-//--back button --
+//--BACK BUTTON--
 
 $(".hBack").on("click", function(e){
   e.preventDefault();
