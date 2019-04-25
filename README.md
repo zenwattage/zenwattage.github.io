@@ -1,12 +1,9 @@
 ## Table of Contents
 - [Usage](#usage)
+- [Wins](#wins)
 - [Support](#support)
 - [Contributing](#contributing)
 
-## 100% personally created portfolio
-The 2nd edition of my personal portfolio.
-
- 
 
 ## Usage
 ## LIFX/IOT - First Project!
@@ -15,7 +12,16 @@ To utilize the LIFX weather project you will need a LIFX ```client_id``` token a
 ## Hangman Game
 - output is still an issue
 
-## 
+## Wins
+
+## 100% personally created portfolio
+- For a fun way to choose my color scheme I used [Color Leap](https://colorleap.app/home). (I chose the second pot down in year 0)
+## Personal Domain! 
+Welcome to the launch of scottyhansford.com! I found the ease of github-pages combined with the ```terminal``` and I had to figure out how to connect to a real domain.
+
+
+ 
+
 
 
 ## Support
