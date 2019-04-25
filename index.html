@@ -27,11 +27,24 @@
     <h1><i class="fas fa-md fa-terminal"></i> My name is Scott Hansford</h1>
 
     <h2>I am a full stack web development student at the University of Washington.</h2>
+    
   </div>
 
+  <div class="container-fluid">
+     <!--  CONTACT BOX-->
+     <div class=" contactBox">
+  
+        <a href="https://github.com/zenwattage"><i class="fa-4x fab fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/scott-hansford-239379130"><i class="fa-4x fab fa-linkedin"></i></a>
+        <a href="" data-toggle="modal" data-target="#emailNumberModal"><i class="fa-4x fas fa-envelope-square"></i></a>
+        <a href="" data-toggle="modal" data-target="#phoneNumberModal"><i class="fa-4x fas fa-phone-square"></i></a>
+        <a href="" data-toggle="modal" data-target="#resumePDFModal"><i class="fa-4x fas fa-file-pdf"></i></a>
+      </div><!-- END CONTACT BOX-->
+  </div>
 
   <!-- THUMBNAIL ROWS-->
   <div class="row">
+   
     <div class="col-sm-2">
       <div class="card">
         <div class="card-body">
@@ -84,18 +97,7 @@
 
   </div> <!-- END THUMBNAIL ROWS-->
 
-
-<!--  CONTACT BOX-->
   
-    <div class=" contactBox">
-      <h1 id="dropLine">Drop me a line!</h1>
-
-      <a href="https://github.com/zenwattage"><i class="fa-4x fab fa-github-square"></i></a>
-      <a href="https://www.linkedin.com/in/scott-hansford-239379130"><i class="fa-4x fab fa-linkedin"></i></a>
-      <a href="" data-toggle="modal" data-target="#emailNumberModal"><i class="fa-4x fas fa-envelope-square"></i></a>
-      <a href="" data-toggle="modal" data-target="#phoneNumberModal"><i class="fa-4x fas fa-phone-square"></i></a>
-
-    </div>
 
     <!-- email Number Modal -->
     <div class="modal fade" id="emailNumberModal" tabindex="-1" role="dialog" aria-labelledby="emailNumberModalTitle"
@@ -148,6 +150,34 @@
         </div>
       </div>
     </div> <!-- End of Phone Number Modal -->
+
+
+
+    <!-- resume PDF Modal -->
+    <div class="modal fade" id="resumePDFModal" tabindex="-1" role="dialog" aria-labelledby="resumePDFModalTitle"
+      aria-hidden="true">
+
+      <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+      <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="resumeModalLongTitle">Want my resume?</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Resume Link: https://drive.google.com/file/d/1dBDn6puboPs2Qd7J0nhvcbbRC1CMPL5I/view?usp=sharing
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End of resume PDF Modal -->
+
 
  <!--  END CONTACT BOX-->
 
