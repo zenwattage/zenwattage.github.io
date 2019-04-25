@@ -3,7 +3,7 @@
 - [Support](#support)
 - [Contributing](#contributing)
 
-## 100% Personal created portfolio
+## 100% personally created portfolio
 The 2nd edition of my personal portfolio.
 
  
