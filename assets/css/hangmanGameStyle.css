@@ -1,0 +1,222 @@
+
+/* * {
+    margin: 0; 
+    padding: 0;} */
+
+body,html {
+    height: 100%;
+    /*margin: 0;*/
+}
+
+.container {
+  border-style: 2px solid black;
+}
+
+/* --background--*/
+.bg {
+    /* The image used */
+    background-image: url("../images/hangmanBack.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ---------- NAV BAR ------------------ */
+nav {
+  background-color: #ffffff;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-bottom: #dddddd  solid;
+}
+
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+li a {
+  display: block;
+  color: #777777 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+  
+}
+
+#home {
+  float: left;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  text-decoration: none;
+}
+
+/*--------------End Navbar ----------------*/
+
+
+
+
+
+
+
+/*centering main messages*/
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    padding-left: 20px;
+}
+
+h1 {
+   
+    font-size: 5.85vw;/*vw = viewport widths*/
+    font-family: 'Orbitron', sans-serif;
+    color: lawngreen;
+    align-self: center;
+    padding-left: auto;
+    text-shadow: 0 0 25px white, 0 0 21px rgb(255, 0, 191);
+    width: auto;
+    
+    
+}
+
+
+
+/*---instructions section ---*/
+
+.instructions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 4.5vw;
+    font-family: 'Orbitron', sans-serif;
+    color: lawngreen;
+    align-self: center;
+    padding-left: auto;
+    text-shadow: 0 0 25px rgb(79, 8, 88), 0 0 21px rgb(255, 0, 191);
+}
+
+h3 {
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    color: lawngreen;
+    align-self: center;
+    padding-left: auto;
+    text-shadow: 0 0 25px rgb(79, 8, 88), 0 0 21px rgb(255, 0, 191);
+}
+
+/*---div start_button--*/
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #d80eb6;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 28px;
+  padding: 10px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  vertical-align: midde;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.reset_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.answerLine {
+  size: 5.00vh;
+  padding: 0;
+}
+
+#spaces {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  margin: 0;
+  margin-top: 10px;
+  margin-right: 5px;
+  font-size: 50px;
+  font-family: 'Orbitron', sans-serif;
+  color: lawngreen;  
+  text-shadow: 0 0 25px rgb(79, 8, 88), 0 0 21px rgb(255, 0, 191);
+}
+
+#letters {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin: 0;
+  font-size: 4.5vw;
+  font-family: 'Orbitron', sans-serif;
+  color: lawngreen;
+  text-shadow: 0 0 25px rgb(79, 8, 88), 0 0 21px rgb(255, 0, 191);
+}
+
+#score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+#wrongGuesses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+
+}

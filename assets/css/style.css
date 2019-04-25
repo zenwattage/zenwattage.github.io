@@ -6,8 +6,6 @@ lightblue = #6DBDC4;
 darkblue = #0A203F;
  */
 
- 
-
 html {
     height: 100%;
 }
@@ -27,7 +25,6 @@ body {
 p {
     font-size: 20px;
     color: #EEBB4E;
-    
     /*font-family: 'Fjalla One', sans-serif;*/
     /* font-family: 'Staatliches', cursive; */
 }
@@ -54,7 +51,6 @@ h3 {
     text-shadow: 1px 2px 1px #0A203F;
 }
 
-
 .card-body {
     border-radius: 5px;
     background-color: #6DBDC4;
@@ -68,7 +64,6 @@ h3 {
     box-shadow: 0 1px 3px 0 #6DBDC4, 0px 2px 4px 4px rgb(37, 23, 3);
 }
 
-
 .card-text {
     font-size: 25px;
     font-family: 'Staatliches', cursive;
@@ -76,8 +71,6 @@ h3 {
     /*font-family: 'PT Mono', monospace;*/
     text-shadow: 1px 1px 2px #0A203F;
 }
-
-
 
 .img-thumbnail {
     background-color: #EEBB4E;
@@ -102,7 +95,6 @@ h3 {
     background-color: #AD7432;
     text-shadow: 1px 1px 2px #0A203F;
     box-shadow: 0 1px 2px 0 #6DBDC4, 0px 1px 1px 1px rgb(37, 23, 3);
-    
 }
 
 .lightorange-background {
@@ -123,13 +115,11 @@ h3 {
     width: 50px;
     height: 24px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
 }
 
 .builtWith {
     margin-top: 5px;
 }
-
 
 /*  ---- CONTACT SECTION ---- */
 
@@ -158,7 +148,7 @@ h3 {
 }
 
 .contactBox {
-    position:relative ;
+    position: relative;
     top: 80%;
     left: 50%;
     /* move to center */
