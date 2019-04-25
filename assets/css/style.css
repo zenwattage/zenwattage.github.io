@@ -147,12 +147,16 @@ h3 {
     text-shadow: 1px 1px 1px #EEBB4E;
 }
 
-.contactBox {
+
+.contactBox{
+    margin: 0;
+    align-content: center;
+    justify-content: center;
+    display: inline;
     position: relative;
-    top: 80%;
+    top: 10%;
     left: 50%;
     /* move to center */
-    transform: translate(-50%, -50%);
 }
 
 .fa-linkedin, .fa-github-square, .fa-envelope-square, .fa-phone-square {
