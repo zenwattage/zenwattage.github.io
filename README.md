@@ -15,13 +15,10 @@ To utilize the LIFX weather project you will need a LIFX ```client_id``` token a
 ## Wins
 
 ## 100% personally created portfolio
-- For a fun way to choose my color scheme I used [Color Leap](https://colorleap.app/home). (I chose the second pot down in year 0)
+- For a fun way to choose a 5 color scheme I used [Color Leap](https://colorleap.app/home). (I chose the second pot down in year 0)
+
 ## Personal Domain! 
-Welcome to the launch of scottyhansford.com! I found the ease of github-pages combined with the ```terminal``` and I had to figure out how to connect to a real domain.
-
-
- 
-
+Welcome to the launch of scottyhansford.com! github-pages combined with the ```terminal``` makes for very quick updates to the live page which I appreciate.
 
 
 ## Support
