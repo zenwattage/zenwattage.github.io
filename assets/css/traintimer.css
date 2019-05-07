@@ -13,27 +13,43 @@ html {
 }
 body {
     
+    background-color: darkorange;
     /*/background-image: url('./images/train.jpg');*/
    
     
 }
 .jumbotron {
-    background-image: url('../images/logo-built_black.png');
+    
     background-color: chocolate;
     align-content: center;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
+
+.jumbotron-fluid {
+    background-image: url('../images/train2.jpg');
+
+}
+
 h1 {
     font-size: 350%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
     text-shadow: 2px 2px darkorange;
 
 }
+
+p {
+    font-size: 250%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px darkorange;
+
+}
+
 .row {
     margin: auto;    
     align-items: center;
