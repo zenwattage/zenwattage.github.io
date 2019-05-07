@@ -18,7 +18,7 @@ body {
     
 }
 .jumbotron {
-    background-image: url('./images/train.jpg');
+    background-image: url('../images/logo-built_black.png');
     background-color: chocolate;
     align-content: center;
     justify-content: center;
