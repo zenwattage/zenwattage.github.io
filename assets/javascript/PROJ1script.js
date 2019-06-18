@@ -70,7 +70,7 @@ function SetBulb(newBulb) {
 
 //--BACK BUTTON--
 
-$(".hBack").on("click", function(e){
+$(".hBack").on("click", function (e) {
   e.preventDefault();
   window.history.back();
 });
@@ -374,7 +374,7 @@ function stringFormat(str) {
   return str;
 }
 
- //This function will use the google map api to query user selected input. Then extract coordinates from user input and use the latitude and longitude of selected place and make another ajax call to the open weather map api. From this second query, we are able to get weather information
+//This function will use the google map api to query user selected input. Then extract coordinates from user input and use the latitude and longitude of selected place and make another ajax call to the open weather map api. From this second query, we are able to get weather information
 function placetoCoord(place) {
 
   //google map api query using user input
@@ -456,7 +456,7 @@ function placetoCoord(place) {
           }
 
           //if temp is greater than 60, or less than 85 and is not a rainid
-          else if((temp >= 60 && rainId.indexOf(id) < 0) || (temp < 80 && rainId.indexOf(id) < 0)) {
+          else if ((temp >= 60 && rainId.indexOf(id) < 0) || (temp < 80 && rainId.indexOf(id) < 0)) {
             //call green function
             console.log(rainId.indexOf(id));
             console.log("it's nice outside");
@@ -464,13 +464,13 @@ function placetoCoord(place) {
           }
 
           //if temp is greater than 60, or less than 85 and is in rainid
-          else if((temp >= 60 && rainId.indexOf(id) > -1) || (temp < 80 && rainId.indexOf(id) > -1)) {
+          else if ((temp >= 60 && rainId.indexOf(id) > -1) || (temp < 80 && rainId.indexOf(id) > -1)) {
             //call blue function
             console.log(rainId.indexOf(id));
             console.log("it's nice outside and it's raining");
             blueSwitch();
           }
-          
+
 
 
 

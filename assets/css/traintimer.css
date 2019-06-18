@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 html {
@@ -9,17 +8,14 @@ html {
     justify-content: center;
     margin: auto;
     height: 100%;
-    
 }
+
 body {
-    
     background-color: darkorange;
     /*/background-image: url('./images/train.jpg');*/
-   
-    
 }
+
 .jumbotron {
-    
     background-color: chocolate;
     align-content: center;
     justify-content: center;
@@ -29,7 +25,6 @@ body {
 
 .jumbotron-fluid {
     background-image: url('../images/train2.jpg');
-
 }
 
 h1 {
@@ -38,7 +33,6 @@ h1 {
     align-items: center;
     justify-content: center;
     text-shadow: 2px 2px darkorange;
-
 }
 
 p {
@@ -47,11 +41,10 @@ p {
     align-items: center;
     justify-content: center;
     text-shadow: 2px 2px darkorange;
-
 }
 
 .row {
-    margin: auto;    
+    margin: auto;
     align-items: center;
     margin-left: 120px;
     margin-right: 160px;
@@ -61,7 +54,6 @@ p {
     margin: auto;
     align-items: center;
     justify-content: center;
-
 }
 
 .card-body {
@@ -72,4 +64,3 @@ th {
     margin: 10px;
     padding-right: 20px;
 }
-

@@ -1,12 +1,12 @@
 const config = {
-    apiKey: "AIzaSyCDDEvDN8T21KSpUnxrUrfozcXM7EywOoM",
-    authDomain: "traintimer-1cfec.firebaseapp.com",
-    databaseURL: "https://traintimer-1cfec.firebaseio.com",
-    projectId: "traintimer-1cfec",
-    storageBucket: "traintimer-1cfec.appspot.com",
-    messagingSenderId: "810687246335"
+  apiKey: "AIzaSyCDDEvDN8T21KSpUnxrUrfozcXM7EywOoM",
+  authDomain: "traintimer-1cfec.firebaseapp.com",
+  databaseURL: "https://traintimer-1cfec.firebaseio.com",
+  projectId: "traintimer-1cfec",
+  storageBucket: "traintimer-1cfec.appspot.com",
+  messagingSenderId: "810687246335"
 
-  };
+};
 
 // Initialize Firebase
 
@@ -17,7 +17,7 @@ var trainDatabase = firebase.database();
 //console.log(trainDatabase);
 
 // on submit button click
-$("#submit").on("click", function() {
+$("#submit").on("click", function () {
 
   // get info from input boxes
   var trainName = $("#train-name").val().trim();
@@ -32,9 +32,9 @@ $("#submit").on("click", function() {
     firstTrain: firstTrain,
     trainFreq: trainFreq
   }
-  
+
   trainDatabase.ref().push(newTrain);
-  
+
   console.log("Train added!");
 
   //clear boxes
@@ -51,7 +51,7 @@ $("#submit").on("click", function() {
 
 
 //on child added update
-trainDatabase.ref().on("child_added", function(snapshot) {
+trainDatabase.ref().on("child_added", function (snapshot) {
   var name = snapshot.val().name;
   var destination = snapshot.val().destination;
   var trainFreq = snapshot.val().trainFreq;
@@ -63,11 +63,11 @@ trainDatabase.ref().on("child_added", function(snapshot) {
   //arrival
   var arrival = moment().add(minutesTilArrival, "minutes").format("hh:mm");
 
-//append to table
-$("#trainOutput").append("<tr><td>Train name : " + name + "</tr></td>");
-$("#trainOutput").append("<tr><td>Going to: " + destination + "</tr></td>");
-$("#trainOutput").append("<tr><td>Arriving in: " + minutesTilArrival + " minutes. </tr></td>");
-$("#trainOutput").append("<tr><td>Train arrives at: " +  arrival + " local time.</tr></td>");
+  //append to table
+  $("#trainOutput").append("<tr><td>Train name : " + name + "</tr></td>");
+  $("#trainOutput").append("<tr><td>Going to: " + destination + "</tr></td>");
+  $("#trainOutput").append("<tr><td>Arriving in: " + minutesTilArrival + " minutes. </tr></td>");
+  $("#trainOutput").append("<tr><td>Train arrives at: " + arrival + " local time.</tr></td>");
 
 
 });//end on child added function
