@@ -45,6 +45,10 @@ h3 {
     font-family: 'Staatliches', cursive;
 }
 
+div.col-sm-5:nth-child(5) {
+    margin-left: 2px;
+}
+
 .card-title {
     color: #EEBB4E;
     padding-top: 10px;
