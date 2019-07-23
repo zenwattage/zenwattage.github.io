@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  #wrapper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'IM Fell Double Pica SC', serif;
+    background-image: url("http://thealibi.com/wp-content/uploads/2015/03/cocktails.jpg");
+    background-size: auto;
+    background-position: center;
+    }
+  
+  .jumbotron h1 {
+    font-size: 120px;
+    text-align: center;
+    color: rgb(187, 221, 196);
+    text-shadow: 2px 2px rgb(227, 240, 48);
+  }
+  
+  .jumbotron {
+    background-image: url("https://bistroonbridge.com/wp-content/uploads/BlurBG.jpg");
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 80px;
+    height: 90%;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  /*question*/
+  h3
+  {
+    font-family: 'IM Fell Double Pica SC', serif;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    margin-top: 45px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(240, 237, 105);
+    margin-bottom: 40px;
+    line-height: 40px;
+    text-shadow: 1px 1px black;
+  }
+  
+  /*answers*/
+  h4
+  {
+    color: #F8FFFA;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+    background-color: rgba(138, 146, 178, 0.6);
+    padding: 5px 0;
+    border-radius: 5px;
+    text-shadow: 1px 1px black;
+  }
+  
+  /*timer*/
+  h5
+  {
+    color: rgb(240, 243, 62);
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    font-family: 'IM Fell Double Pica SC', serif;
+    
+    text-shadow: 1px 1px black;
+  }
+  
+  .answerImage {
+    max-width: 500px;
+    max-height: 300px;
+
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .answers {
+    margin-top: 30px;
+  }
+
+  .btn-primary {
+    background-color: #98BFA3;
+    border-color: #98BFA3;
+    margin-top: 50px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #6C8773;
+    border-color: #5F7866;
+  }
+  
+  .btn-primary:active:focus {
+    background-color: #41523F;
+    border-color: #334031;
+  }
+  
+
+    
+  @media only screen and (max-width: 992px) {
+    .jumbotron h1 {
+      font-size: 90px;
+    }
+    .container .jumbotron {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .btn-primary {
+      background-color: #98BFA3;
+      border-color: #98BFA3;
+      margin-top: 100px;
+    }
+
+    .btn-primary {
+      background-color: #98BFA3;
+      margin-top: 20px;
+    }
+    h3/*question*/
+    {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    h5/*timer*/
+    {
+      font-size: 25px;
+    }
+    h4/*answers*/
+    {
+      font-size: 35px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .answerImage {
+      max-width: 400px;
+      max-height: 3000px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .jumbotron {
+      margin-top: 20px;
+      max-height: 597px;
+    }
+    .jumbotron h1 {
+      font-size: 40px;
+    }
+    h3/*question*/
+    {
+      letter-spacing: 0px;
+      word-spacing: 2px;
+      margin-top: 35px;
+      text-align: center;
+      font-size: 16px;
+    }
+    
+    h5/*timer*/
+    {
+      font-size: 16px;
+    }
+    h4/*answers*/
+    {
+      font-size: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .answerImage {
+      max-width: 250px;
+
+      max-height: 250px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
