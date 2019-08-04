@@ -19,6 +19,7 @@ body {
 .container {
     align-content: center;
     justify-content: center;
+    object-fit: contain;
     padding-top: 2%;
 }
 
@@ -94,7 +95,7 @@ div.col-sm-5:nth-child(5) {
 }
 
 .row {
-    width: 100%;
+    width: auto;
     justify-content: center;
 }
 
