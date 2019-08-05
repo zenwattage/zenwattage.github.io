@@ -5,6 +5,7 @@ let canvasHeight = window.innerHeight;
 let ship;
 //in order to be able to press multiple keys at the same time and regester the key presses to the game the keys need to be put into an array
 let keys = [];
+//many bullets on page and many asteroids on page at same time = array
 let bullets = [];
 let asteroids = [];
 let score = 0;
