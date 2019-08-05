@@ -11,7 +11,11 @@ let score = 0;
 let lives = 3;
 
 
+
 document.addEventListener('DOMContentLoaded', SetupCanvas);
+
+
+
 
 function SetupCanvas(){
     canvas = document.getElementById('my-canvas');
@@ -214,11 +218,12 @@ function CircleCollision(p1x, p1y, r1, p2x, p2y, r2){
     }
 }
 
+// icons to represent remaining life
 function DrawLifeShips(){
     let startX = 1350;
     let startY = 10;
     let points = [[9,9], [-9,9]];
-    ctx.strokeStyle = 'white';
+    ctx.strokeStyle = '#0ff';
     //cycle through remaining ships
     for(let i = 0; i < lives; i++){
         ctx.beginPath();
@@ -249,15 +254,17 @@ function Render(){
 
     //display to user
     ctx.fillStyle = 'white';
-    ctx.font = '21px Arial';
+    ctx.font = '31px Verdana';
     // convert to string and give x and y coord
     ctx.fillText('SCORE: ' + score.toString(), 20, 35);
     
     if(lives <= 0) {
         ship.visible = false;
         ctx.fillStyle = 'white';
-        ctx.font = '50px Arial';
+        ctx.font = '50px Verdana';
         // center text on canvas
+        
+        ctx.fillText('PRESS F5 FOR RESTART', canvasWidth / 2 - 290, canvasHeight / 2 - 50);
         ctx.fillText('GAME OVER', canvasWidth / 2 - 150, canvasHeight / 2);
     }
     //draw ships on screen

@@ -1,5 +1,7 @@
 body{
-    background: rgb(11, 93, 170);
+    /* background: rgb(11, 93, 170); */
+    background: #112;
+    background-size:cover;
 }
 
 #container {
@@ -8,11 +10,114 @@ body{
 }
 
 #my-canvas { 
+    margin-top: 50px;
     height: 100%;
     width: 100%;
-    margin: 0;
     background: #000;
     border: 1px solid #fff;
     box-shadow: 0px 0px 15px 5px #0ff;
 }
 
+p {
+    margin-top: 14px;
+    text-align: center;
+    color: rgb(13, 128, 128);
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 1px rgba(0, 255, 255, 0.795);
+}
+
+
+/* 
+.jumbotron {
+    width:100%;
+     height: 5vh;
+     display:table;
+} */
+
+
+.neon{
+    text-align:center;
+    font-family: 'Coda Caption', sans-serif;
+    font-size:48px;
+    color:#fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #007CC3,
+      0 0 20px #fff,
+      0 0 40px #004B8D,
+      0 0 50px #0ff,
+      0 0 90px #007CC3,
+      0 0 100px #004B8D,
+      0 0 150px #0ff;
+  }
+  
+  .neon span{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .neon span:nth-child(odd){
+    animation-delay: 1s;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  @keyframes example {
+      0%{text-shadow:
+      0 0 5px #fff,
+      0 0 10px #007CC3,
+      0 0 20px #fff,
+      0 0 40px #004B8D,
+      0 0 50px #0ff,
+      0 0 90px #007CC3,
+      0 0 100px #004B8D,
+      0 0 150px #0ff;}
+    90%{color:white;
+      text-shadow:
+      0 0 5px #fff,
+      0 0 10px #007CC3,
+      0 0 20px #fff,
+      0 0 40px #004B8D,
+      0 0 50px #0ff,
+      0 0 90px #007CC3,
+      0 0 100px #004B8D,
+      0 0 150px #0ff;
+    }
+     91%{
+       color:#666666;
+       text-shadow:
+      0 0 0 #fff,
+      0 0 0 #007CC3,
+      0 0 0 #fff,
+      0 0 0 #004B8D,
+      0 0 0 #0ff,
+      0 0 0 #007CC3,
+      0 0 0 #004B8D,
+      0 0 0 #0ff;} 
+     99%{
+       color:#666666;
+       text-shadow:
+      0 0 0 #fff,
+      0 0 0 #007CC3,
+      0 0 0 #fff,
+      0 0 0 #004B8D,
+      0 0 0 #0ff,
+      0 0 0 #007CC3,
+      0 0 0 #004B8D,
+      0 0 0 #0ff;} 
+    100%{color:white;
+      text-shadow:
+      0 0 5px #fff,
+      0 0 10px #007CC3,
+      0 0 20px #fff,
+      0 0 40px #004B8D,
+      0 0 50px #0ff,
+      0 0 90px #007CC3,
+      0 0 100px #004B8D,
+      0 0 150px #0ff;}  
+    }
+  }
