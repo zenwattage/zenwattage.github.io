@@ -10,12 +10,7 @@ let asteroids = [];
 let score = 0;
 let lives = 3;
 
-
-
 document.addEventListener('DOMContentLoaded', SetupCanvas);
-
-
-
 
 function SetupCanvas(){
     canvas = document.getElementById('my-canvas');
@@ -266,6 +261,11 @@ function Render(){
         
         ctx.fillText('PRESS F5 FOR RESTART', canvasWidth / 2 - 290, canvasHeight / 2 - 50);
         ctx.fillText('GAME OVER', canvasWidth / 2 - 150, canvasHeight / 2);
+    } else if( lives >= 0 && score === 1120) {
+        ctx.font = '60px Verdana';
+        
+        ctx.fillText('PRESS F5 FOR RESTART', canvasWidth / 2 - 290, canvasHeight / 2 - 50);
+        ctx.fillText('YOU WIN!', canvasWidth / 2 - 150, canvasHeight / 2);
     }
     //draw ships on screen
     DrawLifeShips();
