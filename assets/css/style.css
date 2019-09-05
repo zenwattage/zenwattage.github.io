@@ -23,6 +23,13 @@ body {
     padding-top: 2%;
 }
 
+.row {
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+}
+
+
 p {
     font-size: 20px;
     color: #EEBB4E;
@@ -46,9 +53,7 @@ h3 {
     font-family: 'Staatliches', cursive;
 }
 
-div.col-sm-5:nth-child(5) {
-    margin-left: 2px;
-}
+
 
 .card-title {
     color: #EEBB4E;
@@ -70,9 +75,6 @@ div.col-sm-5:nth-child(5) {
     margin-bottom: 20px;
 }
 
-#LIFXCARD {
-    margin-left: 15px;
-}
 
 .card-text {
     font-size: 25px;
@@ -94,10 +96,6 @@ div.col-sm-5:nth-child(5) {
     color: #F9F4E4;
 }
 
-.row {
-    width: auto;
-    justify-content: center;
-}
 
 /* custom button background colors */
 
