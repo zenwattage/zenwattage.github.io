@@ -1,0 +1,43 @@
+.var-highlight {
+  color: #cf7004;
+}
+
+.string-highlight {
+  color: rgba(235, 144, 26, 0.89);
+  text-shadow: 2px 2px solid rgb(236, 95, 39);
+}
+
+#typewriter {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.2em;
+  font-family: "Fira Code", monospace;
+  color: whitesmoke;
+  text-shadow: 2px 2px solid blue;
+}
+
+#typewriter:after {
+  margin: 0;
+  content: "|";
+  -webkit-animation: blink 500ms linear infinite alternate;
+  animation: blink 500ms linear infinite alternate;
+  color: rgb(52, 120, 245);
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

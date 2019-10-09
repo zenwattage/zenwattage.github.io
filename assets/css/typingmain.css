@@ -1,0 +1,30 @@
+body {
+  background: transparent;
+  height: 100%;
+}
+
+.info {
+  background-color: steelblue;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-gap: 10px;
+}
+
+li {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.info {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 20px;
+  color: #fff;
+}

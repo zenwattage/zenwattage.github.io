@@ -16,6 +16,10 @@ body {
     width: 100%;
 }
 
+#student {
+    text-decoration: line-through;
+}
+
 .container {
     align-content: center;
     justify-content: center;
