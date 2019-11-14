@@ -16,6 +16,10 @@ body {
   width: 100%;
 }
 
+#project-back-btn {
+  margin-bottom: 10px;
+}
+
 #student {
   text-decoration: line-through;
 }
@@ -147,14 +151,6 @@ h3 {
   text-shadow: 1px 1px 1px #eebb4e;
 }
 
-.contactBox {
-  padding-top: 10px;
-  margin-top: 5em;
-  flex-wrap: wrap;
-  justify-content: center;
-  display: flex;
-}
-
 .fa-linkedin,
 .fa-github-square,
 .fa-envelope-square,
@@ -164,4 +160,31 @@ h3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: 15px;
   margin-bottom: 10px;
+}
+.contactBox {
+  padding-top: 10px;
+  margin-top: 5em;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.connect-panel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.connect-div {
+  margin-bottom: 30px;
+}
+
+.connect-icon {
+  margin: 10px 20px;
+  width: 60px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
 }

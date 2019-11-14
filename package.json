@@ -1,0 +1,48 @@
+{
+  "title": "Creative",
+  "name": "Portfolio Page",
+  "version": "5.1.8",
+  "scripts": {
+    "start": "node_modules/.bin/gulp watch"
+  },
+  "description": "Scott Hansford's Online Portfolio Page",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://www.scottyhansford.com",
+  "bugs": {
+    "url": "https://github.com/zenwattage/zenwattage.github.io/issues/new",
+    "email": "scott.hansford1775@gmail.com"
+  },
+  "license": "MIT",
+  "author": "Scott Hansford",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenwattage/zenwattage.github.io"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.10.2",
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1",
+    "jquery.easing": "^1.4.1",
+    "magnific-popup": "^1.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "7.0.0",
+    "gulp-clean-css": "4.2.0",
+    "gulp-header": "2.0.9",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "2.0.0"
+  }
+}
