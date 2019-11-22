@@ -8905,6 +8905,10 @@ header.masthead h1 {
   opacity: 1;
 }
 
+#tech-btn {
+  margin-top: 4rem;
+}
+
 .dev-icons {
   font-size: 3rem;
 }
