@@ -153,7 +153,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  color: var(teal);
   text-decoration: underline;
 }
 a:not([href]):not([tabindex]) {
@@ -2135,7 +2135,7 @@ fieldset:disabled a.btn {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: orangered;
+  background-color: var(teal);
   border-color: #4098d3;
 }
 .btn-primary.focus,
@@ -2152,8 +2152,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #ee3e0d;
-  border-color: #e23a0d;
+  background-color: var(teal);
+  border-color: var(teal);
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -2630,7 +2630,7 @@ fieldset:disabled a.btn {
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #d6370c;
+  color: var(teal);
   text-decoration: underline;
 }
 .btn-link.focus,
@@ -8792,7 +8792,7 @@ hr.light {
   #mainNav .navbar-brand:hover {
     color: #fff;
     font-family: 'Rubik Mono One', sans-serif;
-    text-shadow: 1px 1px orangered;
+    text-shadow: 1px 1px var(teal);
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
@@ -8818,7 +8818,7 @@ hr.light {
     color: #c7ddeb;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: orangered;
+    color: var(--teal);
     text-shadow: 2px 2px black;
   }
 }
@@ -8830,7 +8830,7 @@ header.masthead {
       rgba(92, 77, 66, 0.8) 0,
       rgba(92, 77, 66, 0.8) 100%
     ),
-    url(../img/rainTent1920.png);
+    url(../assets/images/photos/ShellBeachFlowers.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -8856,7 +8856,7 @@ header.masthead h1 {
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 3.5rem;
-    text-shadow: 1px 1px orangered;
+    text-shadow: 1px 1px black;
   }
 }
 #portfolio .container-fluid {
@@ -8878,7 +8878,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #c7ddeb;
-  background: #d6370c;
+  background: var(--teal);
   transition: opacity 0.25s ease;
   text-align: center;
 }
